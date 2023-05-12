@@ -7,6 +7,7 @@ translator = Translator()
 bot = telebot.TeleBot('')
 
 
+
 @bot.message_handler(func=lambda m: True)
 def translate_massage(message):
     src = detect(message.text)
