@@ -4,7 +4,7 @@ from langdetect import detect
 
 translator = Translator()
 
-bot = telebot.TeleBot('5918043435:AAG7DChWzCt3yIHKgYk3Di16OlOphAvtNQU')
+bot = telebot.TeleBot('')
 
 
 @bot.message_handler(func=lambda m: True)
